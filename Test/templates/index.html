@@ -1,0 +1,5 @@
+{% for p in persons %}
+<h2>{{p.name}}</h2>
+<h2>{{p.created|timesince}}&nbsp;ago</h2>
+
+{% endfor %}
